@@ -1,4 +1,4 @@
-header {
+.header {
     position: fixed;
     z-index: 10;
 
@@ -8,15 +8,15 @@ header {
         background: linear-gradient(#00000041, #00000054);
         align-items: center;
         justify-content: space-around;
-        color: white;
+        color: $color-1;
         width: 100vw;
-        padding: 25px;
+        padding: 24px;
         font-weight: 700;
 
         h1 {
             img {
-                width: 200px;
-                height: 200px;
+                width: 100px;
+                height: 100px;
             }
         }
 

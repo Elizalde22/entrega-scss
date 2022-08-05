@@ -4,16 +4,16 @@
   list-style-type: none;
   box-sizing: border-box; }
 
-body {
+.body {
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
 
-header {
+.header {
   position: fixed;
   z-index: 10; }
-  header nav {
+  .header nav {
     display: flex;
     background-color: #80808070;
     background: linear-gradient(#00000041, #00000054);
@@ -21,14 +21,14 @@ header {
     justify-content: space-around;
     color: white;
     width: 100vw;
-    padding: 25px;
+    padding: 24px;
     font-weight: 700; }
-    header nav h1 img {
-      width: 200px;
-      height: 200px; }
-    header nav ul li {
+    .header nav h1 img {
+      width: 100px;
+      height: 100px; }
+    .header nav ul li {
       display: inline-block; }
-      header nav ul li a {
+      .header nav ul li a {
         margin: 20px;
         color: white; }
 
@@ -59,6 +59,11 @@ header {
       font-family: Georgia, 'Times New Roman', Times, serif;
       text-decoration: none; }
 
+.comprar {
+  font-size: 24px;
+  padding: 500px 0px 500px 25px;
+  color: white; }
+
 .sectioncard {
   display: flex;
   flex-direction: row;
@@ -66,10 +71,58 @@ header {
   justify-content: space-around;
   margin: 50px; }
 
-.footer {
+/*---carousel contacto----*/
+.carousel-item h5 {
+  color: white !important;
+  background-color: black; }
+
+.carousel-item p {
+  color: white !important;
+  background-color: black; }
+
+/*----formulario----*/
+.mb-3 {
+  color: white !important; }
+
+.footerb {
   font-size: 15px;
   padding: 10px;
   color: white; }
-  .footer a {
-    margin: 50px;
+  .footerb a {
+    margin: 25px;
     padding: 25px; }
+
+@media screen and (max-width: 1024px) {
+  .header h1 {
+    color: #c836ec; }
+  .header nav ul li a {
+    color: #c836ec; }
+  .main-p h2 {
+    color: #c836ec; } }
+
+@media screen and (max-width: 768px) {
+  header nav {
+    flex-direction: column; }
+  .main-p {
+    flex-direction: column;
+    color: #c836ec;
+    font-size: 12px; }
+  .body {
+    background-position: center; }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px; }
+  .comprar {
+    font-size: 15px; }
+  .sectioncard {
+    flex-direction: column !important;
+    align-items: center !important; } }
+
+@media screen and (max-width: 500px) {
+  .header nav ul li {
+    display: block;
+    align-items: center; }
+  .main-p img {
+    width: 300px;
+    height: 300px; } }
