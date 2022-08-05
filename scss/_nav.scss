@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 header {
+=======
+.header {
+>>>>>>> delorean
     position: fixed;
     z-index: 10;
 
@@ -8,15 +12,26 @@ header {
         background: linear-gradient(#00000041, #00000054);
         align-items: center;
         justify-content: space-around;
+<<<<<<< HEAD
         color: white;
         width: 100vw;
         padding: 25px;
+=======
+        color: $color-1;
+        width: 100vw;
+        padding: 24px;
+>>>>>>> delorean
         font-weight: 700;
 
         h1 {
             img {
+<<<<<<< HEAD
                 width: 200px;
                 height: 200px;
+=======
+                width: 100px;
+                height: 100px;
+>>>>>>> delorean
             }
         }
 
