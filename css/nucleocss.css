@@ -112,7 +112,7 @@
     color: #c836ec; } }
 
 @media screen and (max-width: 768px) {
-  header nav {
+  .header nav {
     flex-direction: column; }
   .main-p {
     flex-direction: column;
