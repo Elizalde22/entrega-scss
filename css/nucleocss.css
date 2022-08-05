@@ -21,20 +21,13 @@
     justify-content: space-around;
     width: 100vw;
     padding: 25px;
-    font-weight: 700;
-    height: 200px;
-    width: 100px;
-    height: 100px;
-    color: white;
-    width: 100vw;
-    padding: 25px;
     color: white;
     width: 100vw;
     padding: 24px;
     font-weight: 700; }
     .header nav h1 img {
-      width: 100px;
-      height: 100px; }
+      width: 90px;
+      height: 90px; }
     .header nav ul li {
       display: inline-block; }
       .header nav ul li a {
