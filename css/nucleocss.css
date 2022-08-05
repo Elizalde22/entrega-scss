@@ -96,18 +96,18 @@
 
 @media screen and (max-width: 1024px) {
   .header h1 {
-    color: #c836ec; }
+    color: #e055fce5; }
   .header nav ul li a {
-    color: #c836ec; }
+    color: #e055fce5; }
   .main-p h2 {
-    color: #c836ec; } }
+    color: #e055fce5; } }
 
 @media screen and (max-width: 768px) {
   .header nav {
     flex-direction: column; }
   .main-p {
     flex-direction: column;
-    color: #c836ec;
+    color: #e055fce5;
     font-size: 12px; }
   .body {
     background-position: center; }
