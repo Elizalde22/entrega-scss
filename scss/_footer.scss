@@ -1,9 +1,7 @@
 
 
 .footerb {
-    font-size: 15px;
-    padding: 10px;
-    color: white;
+    @include foot();
 
     a {
         margin: 25px;

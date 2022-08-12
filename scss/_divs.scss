@@ -18,3 +18,19 @@
 .mb-3 {
     color: $color-1  !important;
 }
+
+/*----grid productos----*/
+
+.row2 {
+    padding: 300px;
+
+    div {
+        margin: 20px !important;
+
+        img {
+            height: 200px !important;
+            width: 200px !important;
+        }
+    }
+
+}

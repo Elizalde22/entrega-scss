@@ -4,6 +4,12 @@
   list-style-type: none;
   box-sizing: border-box; }
 
+.red-instagram {
+  color: #cf1597; }
+
+.red-facebook {
+  color: #4343cc; }
+
 .body {
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
@@ -66,12 +72,25 @@
   padding: 500px 0px 500px 25px;
   color: white; }
 
-.sectioncard {
+.comprar2 {
+  font-size: 25px;
+  padding: 500px 0px 500px 25px;
+  color: white;
+  text-align: center; }
+  .comprar2 .col-sm {
+    width: 650px !important;
+    height: 400px !important; }
+
+.sectioncard, .sectioncard2 {
   display: flex;
   flex-direction: row;
   text-align: center;
   justify-content: space-around;
   margin: 50px; }
+
+.sectioncard2 img {
+  height: 200px;
+  width: 250px; }
 
 /*---carousel contacto----*/
 .carousel-item h5 {
@@ -85,6 +104,15 @@
 /*----formulario----*/
 .mb-3 {
   color: white !important; }
+
+/*----grid productos----*/
+.row2 {
+  padding: 300px; }
+  .row2 div {
+    margin: 20px !important; }
+    .row2 div img {
+      height: 200px !important;
+      width: 200px !important; }
 
 .footerb {
   font-size: 15px;
@@ -117,7 +145,7 @@
     padding-top: 110px; }
   .comprar {
     font-size: 15px; }
-  .sectioncard {
+  .sectioncard, .sectioncard2 {
     flex-direction: column !important;
     align-items: center !important; } }
 
