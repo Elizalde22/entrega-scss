@@ -106,13 +106,12 @@
   color: white !important; }
 
 /*----grid productos----*/
-.row2 {
-  padding: 300px; }
-  .row2 div {
+.productos {
+  padding: 200px 0 0 100px !important; }
+  .productos .row2 div {
     margin: 20px !important; }
-    .row2 div img {
-      height: 200px !important;
-      width: 200px !important; }
+    .productos .row2 div img {
+      height: 200px !important; }
 
 .footerb {
   font-size: 15px;

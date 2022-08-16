@@ -21,16 +21,20 @@
 
 /*----grid productos----*/
 
+.productos{
+    padding: 200px 0 0 100px !important;
+
 .row2 {
-    padding: 300px;
+
 
     div {
         margin: 20px !important;
 
         img {
             height: 200px !important;
-            width: 200px !important;
         }
     }
+
+}
 
 }
