@@ -107,19 +107,19 @@
 
 /*----grid productos----*/
 .productos {
-  padding: 200px 0 0 100px !important; }
+  padding: 200px 0 100px 0 !important; }
   .productos .row2 div {
     margin: 20px !important; }
     .productos .row2 div img {
-      height: 200px !important; }
+      height: 150px !important; }
 
 .footerb {
   font-size: 15px;
   padding: 10px;
   color: white; }
   .footerb a {
-    margin: 25px;
-    padding: 25px; }
+    margin: 8px;
+    padding: 8px; }
 
 @media screen and (max-width: 1024px) {
   .header h1 {
