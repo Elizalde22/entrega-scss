@@ -17,7 +17,9 @@ facebook: #4343cc,
     }
 }
 
-
+@mixin img {
+    box-shadow: 5px 5px 5px 5px;
+}
 
 @mixin foot{
     font-size: 15px;

@@ -92,7 +92,7 @@
   height: 200px;
   width: 250px; }
 
-/*---carousel contacto----*/
+/*---contacto----*/
 .carousel-item h5 {
   color: white !important;
   background-color: black; }
@@ -105,13 +105,19 @@
 .mb-3 {
   color: white !important; }
 
-/*----grid productos----*/
+/*----productos----*/
 .productos {
   padding: 200px 0 100px 0 !important; }
-  .productos .row2 div {
+  .productos div {
     margin: 20px !important; }
-    .productos .row2 div img {
-      height: 150px !important; }
+    .productos div img {
+      width: 200px !important;
+      height: 200px !important;
+      box-shadow: 5px 5px 5px 5px; }
+
+.video-productos {
+  display: flex;
+  justify-content: center; }
 
 .footerb {
   font-size: 15px;
@@ -143,7 +149,7 @@
     flex-direction: column;
     padding-top: 110px; }
   .comprar {
-    font-size: 15px; }
+    font-size: 16px; }
   .sectioncard, .sectioncard2 {
     flex-direction: column !important;
     align-items: center !important; } }

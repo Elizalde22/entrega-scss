@@ -1,4 +1,6 @@
-/*---carousel contacto----*/
+/*---contacto----*/
+
+
 
 .carousel-item h5 {
     color: $color-1  !important;
@@ -19,22 +21,27 @@
     color: $color-1  !important;
 }
 
-/*----grid productos----*/
+/*----productos----*/
 
 .productos{
     padding: 200px 0 100px 0 !important;
-
-.row2 {
-
-
+    
     div {
-        margin: 20px !important;
+        margin: 20px !important;  
 
-        img {
-            height: 150px !important;
-        }
+img{
+        width: 200px !important;
+        height: 200px !important;
+        @include img()
     }
 
+
+    }
+    
+    
 }
 
+.video-productos {
+    display: flex;
+    justify-content: center;
 }
